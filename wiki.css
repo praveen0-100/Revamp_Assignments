@@ -1,0 +1,226 @@
+*{
+    margin:auto;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #DED8D7;
+}
+hr{
+   height:1px ;
+   box-shadow: 10px;
+   margin-bottom: 10px;
+   margin-left:30px;
+  background-color: rgb(158, 153, 153);
+}
+.head-contain {
+  border-radius: 10px solid black;
+}
+
+.fa-bars {
+  font-size: 40px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.wiki-head {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 80px;
+  margin-top: -40px;
+}
+
+.search-box {
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 4px;
+  
+}
+
+.search-box i {
+  margin-right: px;
+  font-size: 30px;
+
+}
+
+#search {
+  font-size: 25px;
+  width: 200px;
+   border:2px solid rgb(53, 44, 44);
+   margin-top:-50px;
+   border-radius: 15px;
+   width:30%;
+   padding:20px;
+
+}
+
+#head{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+}
+#rr-limit{
+    width:50%;
+    height: 50%;
+    display: block;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border:2px solid rgb(198, 198, 248);
+
+}
+#rr-car{
+  width:50%;
+  height:50%;
+  display: block;
+  justify-content: center;
+  border-radius:15px;
+  border:2px solid rgb(198, 198, 248);
+}
+#head2{
+    font-size: 50px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+
+}
+#rr-video{
+    margin-left: 150px;
+    width:800px;
+    height:400px;
+    border-radius: 15px;
+    border: 5px solid rgb(178, 178, 241);
+}
+
+.tab-row {
+  display: flex;
+  gap: 5px;
+  margin-left: 30px; 
+  border-bottom: 2px solid #ccc;
+  font-size: 20px;
+}
+
+.tab {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.tab.active {
+  border-bottom: 3px solid #444; /* Underline for active tab */
+}
+.fa-language{
+    font-size: 50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.action-bar {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: -40px;
+  margin-bottom:10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.action-bar a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 8px;
+}
+.nav-bottom{
+    margin-right: 5px;
+    
+}
+
+.action-bar i {
+  font-size: 20px;
+}
+ body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    details {
+      margin-bottom: 1em;
+      border-bottom: 1px solid #ccc;
+    }
+
+    summary {
+      font-size: 1.2em;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 5px 0;
+    }
+
+    ul {
+      margin-left: 20px;
+      padding-left: 0;
+    }
+
+    li {
+      margin: 5px 0;
+    }
+
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+    #auto{
+        font-size: 50px;
+        margin-left: 30px;
+    }
+    #aero{
+        font-size: 50px;
+        margin-left: 30px;
+    }
+    #see{
+        font-size: 50px;
+        margin-left: 30px;
+    }
+    .para{
+        font-size: 30px;
+        margin-left: 30px;
+        #para1{
+            margin-left: 30px;
+        }
+    }
+   
+#auto-para{
+        font-size: 25px;
+        margin-left: 100px;
+    }
+    #aero-para{
+        font-size: 25px;
+        margin-left: 100px;
+        #li1{
+            margin-left: 2px;
+        }
+        #li2{
+            margin-left: 30px;
+        }
+    }
+    #see-para{
+        font-size: 25px;
+        margin-left: 100px;
+        
+    }
+    #see-hr{
+            margin-left: -70px;
+        }
+footer{
+    font-size: 40px;
+    margin-left:25px;
+    gap:200px;
+
+}
